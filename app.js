@@ -55,8 +55,6 @@ function handleIncorrectGuess() {
     playSound('wrong');
 }
 
-const hintBtn = document.getElementById('hint-btn');
-
 function giveHint() {
     handleIncorrectGuess(); // Using a hint costs one life
 
